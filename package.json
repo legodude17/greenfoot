@@ -1,0 +1,22 @@
+{
+  "name": "greenfoot",
+  "version": "0.0.0",
+  "description": "Use greenfoot easier",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/legodude17/greenfoot"
+  },
+  "keywords": [],
+  "author": "legodude17",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legodude17/greenfoot/issues"
+  },
+  "homepage": "https://github.com/legodude17/greenfoot#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
