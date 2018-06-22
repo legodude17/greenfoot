@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Use greenfoot easier",
   "main": "index.js",
+  "bin": {
+    "run-greenfoot": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/legodude17/greenfoot"
@@ -18,5 +21,11 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "execa": "^0.10.0",
+    "pretty-time": "^1.0.0",
+    "signale": "^1.2.0"
   }
 }
